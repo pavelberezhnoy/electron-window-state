@@ -15,6 +15,8 @@ declare namespace windowStateKeeper {
         file?: string;
         /** Should we automatically maximize the window, if it was last closed maximized. Defaults to `true`. */
         maximize?: boolean;
+        /** Allow window to be partially visible within screen bounds */
+        allowPartiallyVisibleWindow?: boolean;
     }
 
     interface State {
